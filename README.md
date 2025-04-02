@@ -1,7 +1,17 @@
 # 📢 Sentiment-Analysis-on-Amazon-Customer-Reviews 
 
 ## 📌 **Project Overview**  
-This project aims to analyze customer sentiment from **Amazon product reviews** using **NLP and deep learning**. The model is built on **BERT (bert-base-uncased)** and classifies reviews as **Positive, Neutral, or Negative**. The insights derived can help businesses understand customer engagement and product feedback.
+This project aims to analyze customer sentiment from **Amazon product reviews** using **NLP and deep learning**. The model is built on **BERT (bert-base-uncased)** and classifies reviews as **Positive, Neutral, or Negative**. The insights derived can help businesses understand customer engagement and product feedback.  
+
+This project is a **quick and beginner-friendly implementation** of **Sentiment Analysis** using **BERT (Bidirectional Encoder Representations from Transformers)**. The goal is to analyze Amazon reviews and classify their sentiment.  
+
+The model is built using **BERT** for sequence classification, providing a strong baseline for sentiment analysis. While this version works well for beginners, it is designed with **future fine-tuning** in mind to improve accuracy and adaptability for different datasets.  
+
+🚧 **Future Improvements**:  
+- Fine-tuning the BERT model on a **larger, domain-specific dataset**  
+- Optimizing the training pipeline with **hyperparameter tuning**  
+- Deploying the model using **Flask, FastAPI, or Streamlit**  
+
 
 ## 🚀 **Key Features**
 ✔ **Web Scraping** – Extracts Amazon reviews using **Selenium** & **BeautifulSoup**  
